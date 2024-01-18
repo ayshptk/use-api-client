@@ -1,0 +1,38 @@
+# Ignore TypeScript source files
+/src
+
+# Ignore TypeScript config files
+/tsconfig.json
+
+# Ignore Babel config files
+/.babelrc
+
+# Ignore development-specific files
+/node_modules
+/package-lock.json
+/yarn.lock
+/.npmrc
+/.yarnrc
+
+# Ignore environment files
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Ignore editor directories and files
+/.idea
+/.vscode
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
